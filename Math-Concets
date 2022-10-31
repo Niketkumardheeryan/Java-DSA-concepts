@@ -1,8 +1,15 @@
   1. Input Untill next line or input receiver from system
-    - Scanner sc = new Scanner(System.in);
+    - Strings
+    Scanner sc = new Scanner(System.in);
         int i=1;
         while (sc.hasNext()) {
         	String s=sc.nextLine();
-        	System.out.println(i + " " + s);
-        	i++;
+        	System.out.println(s);
+        	
         }
+        
+     - Arrays 
+          Scanner sc=new Scanner();
+          while(sc.hasNext()){
+           int x= sc.nextINT();
+          }
