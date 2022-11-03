@@ -16,3 +16,16 @@
 2. String - INt 
     - Interger.toString(x)
     - String.ValueOf
+=============STRINGS=============================================================================
+0. - converting char to String 
+      - char [] arr={'a','b','c'};
+      String s= new String(arr);                // output - abc 
+      
+1. StringBuffer Class - advance class of String - STRBUFF is mutable and growable 
+1.1 - StringBuilder  it also used as immutable 
+2. 2 ways of create string class , New keyword or without it . - 
+        1. String s="";                              -   Literals method
+        2. String s = new String("hello") ;           - Using new Keyword
+        
+ Ex. of *StringBuffer->   StringBuffer str = new StringBuffer("helllo");       // same will be StringBuilder 
+ 
