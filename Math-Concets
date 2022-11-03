@@ -13,3 +13,6 @@
           while(sc.hasNext()){
            int x= sc.nextINT();
           }
+2. String - INt 
+    - Interger.toString(x)
+    - String.ValueOf
