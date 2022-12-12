@@ -11,7 +11,7 @@
      - Arrays 
           Scanner sc=new Scanner();
           while(sc.hasNext()){
-           int x= sc.nextINT();
+           int x= sc.nextInt();
           }
 2. String - INt 
     - Interger.toString(x)
