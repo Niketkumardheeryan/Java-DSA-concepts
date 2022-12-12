@@ -1,0 +1,40 @@
+=========================Strings==========================
+Import java.lang.String ;
+
+String s;  - String is obj in java created by given above class 
+
+Properties :-
+          * Immutable , Use StringBuffer, String Builder for mutable strings 
+          
+          
+Declaration :- 
+            * Can create obj like 2 types - 1. string literals         Ex. String s;
+                                            2. New keyword             Ex. String s=new String("Hello world ");
+                                            
+ Conversion :
+            char ch[]={'s','t','r','i','n','g','s'};    
+             String s2=new String(ch)       // char to string 
+
+Funtions :-                             Return Type 
+
+          charAt(int)-                        char
+          length()                             int
+ boolean  contains(char seq)                boolean
+ boolean  IsEmpty()                         boolean
+          compare(), 
+          concat(String s2),                    String     
+ boolean  equals(string s2),                boolean
+ Strign[] split( string regex),
+          length(),
+  String  replace(char old,char new ),
+          compareTo(),                      - Lexographical values returm 0 ,1 ,-1 
+  String  intern(),   
+  int     indexOf()   ;
+  
+  
+  
+  
+  
+String substring(int beginx)     -> returns substring for given begin index.
+or-String substring(int x,int y)  -> from x to y
+
